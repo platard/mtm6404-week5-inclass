@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Week 5",
+  "steps": [
+    {
+      "file": "app.js",
+      "description": "## Array Destructuring\r\nDestructure the array to get these values into separate variables: '32' for Tuesday, '25' for Wednesday, and '22' for Friday.\r\n> const temperatures = [28, 32, 25, 30, 22]",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 7,
+          "character": 23
+        }
+      }
+    },
+    {
+      "file": "app.js",
+      "description": "## Object Destructuring\r\nDestructure the object to get the values 'John' and 'New York' into separate variables.",
+      "selection": {
+        "start": {
+          "line": 15,
+          "character": 1
+        },
+        "end": {
+          "line": 15,
+          "character": 24
+        }
+      }
+    },
+    {
+      "file": "app.js",
+      "description": "## Event handling\r\n\r\nCreate a React component that renders a button and logs a message to the console when the button is clicked.\r\n\r\n1. Define a component called 'EventButton'.\r\n2. Inside the component, create a function called 'handleButtonClick' that logs a message to the console: \"Button clicked!\".\r\n3. Inside the component, return a `<button>` element and set the 'onClick' attribute to the 'handleButtonClick' function.\r\n4. Render the 'EventButton' component in your application.\r\n5. Test the application by clicking the button and checking the console output.",
+      "selection": {
+        "start": {
+          "line": 25,
+          "character": 1
+        },
+        "end": {
+          "line": 25,
+          "character": 18
+        }
+      }
+    },
+    {
+      "file": "app.js",
+      "description": "## State management\r\nCreate a React component that displays a counter and allows the user to increment or decrement the counter value.\r\n\r\n1. Define a component called 'Counter'.\r\n2. Inside the 'Counter' component, use the 'React.useState' hook to create a `state variable` called 'count' and a function to update it. Initialize the 'count' variable to 0.\r\n3. Inside the 'Counter' component, return a <div> element that displays the current value of the counter; And two buttons: one for incrementing the counter and another for decrementing it.\r\n4. Use the 'onClick' event handlers on each button. In the event handlers, update the count state variable using the 'setCount' function by incrementing or decrementing its value.\r\n5. Test the application by interacting with the buttons and observing the counter value.",
+      "selection": {
+        "start": {
+          "line": 43,
+          "character": 1
+        },
+        "end": {
+          "line": 43,
+          "character": 19
+        }
+      }
+    },
+    {
+      "file": "app.js",
+      "description": "## Respond\r\n\r\n1. Define a component called 'ContactForm'\r\n2. Inside the component, create a function called 'formHandler'\r\n\r\n>       a. Receive the parameter 'event object'\r\n\r\n>       b. Prevent the page reload/refresh\r\n\r\n>       c. Use the console to display a message: \"Form submitted!\". \r\n\r\n3. Inside the component, return a `<form>` element and set the 'onSubmit' attribute to the 'formHandler' function.\r\n4. Render the 'ContactForm' component in your application.\r\n5. Test the application by clicking the submit button and checking the console output.",
+      "selection": {
+        "start": {
+          "line": 70,
+          "character": 1
+        },
+        "end": {
+          "line": 70,
+          "character": 9
+        }
+      }
+    },
+    {
+      "file": "app.js",
+      "description": "## Retrieve form data\r\n\r\n1.  Inside the 'ContactForm' component, use the useState hook to create state variables for each input field.\r\n2. Assign the 'state variable' to the corresponding 'value' attibute on each input element in the form.\r\n3. Define a inputHandler function. \r\n>       a) Receive the 'event objet' - parameter\r\n>       b) Update the value of the 'state variable'. Use `e.target.value`\r\n",
+      "line": 71
+    },
+    {
+      "file": "app.js",
+      "description": "## Side effects\r\n\r\n1. Define 'useEffect' hook to filter a list of students based on a given query.\r\n> This function should update the state variable 'students' by filtering the existing list of students based on the query value.\r\n> This function will be triggered when the query dependency changes.\r\n",
+      "selection": {
+        "start": {
+          "line": 72,
+          "character": 1
+        },
+        "end": {
+          "line": 72,
+          "character": 3
+        }
+      }
+    }
+  ]
+}
